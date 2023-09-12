@@ -22,14 +22,14 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'androidx.navigation.safeargs'
 
 android {
-    compileSdk 33
+    compileSdk 34
     buildFeatures {
         dataBinding true
     }
     defaultConfig {
         applicationId "com.example.android.gdgfinder"
         minSdkVersion 19
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -98,4 +98,5 @@ dependencies {
 
     // Client for retrieving location
     implementation "com.google.android.gms:play-services-location:$version_play_services"
+
 }

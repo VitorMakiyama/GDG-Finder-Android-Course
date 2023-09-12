@@ -13,7 +13,7 @@
             <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
-                    android:background="@color/colorPrimaryDark"
+                    android:background="@color/md_theme_dark_onPrimary"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize">
                 <ImageView
@@ -22,7 +22,7 @@
                         android:layout_height="match_parent"
                         app:srcCompat="@drawable/logo"
                         android:contentDescription="@string/app_name"
-                        app:tint="?colorOnPrimary" />
+                        app:tint="?colorOnSecondary" />
             </androidx.appcompat.widget.Toolbar>
 
             <fragment
