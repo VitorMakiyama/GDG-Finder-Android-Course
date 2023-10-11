@@ -38,11 +38,10 @@
 
                 <TextView
                     android:id="@+id/title"
-                    style="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/spacing_normal"
-                    android:fontFamily="@font/roboto_slab"
                     android:text="@string/about_google_developer_groups"
                     app:layout_constraintEnd_toStartOf="@+id/end_grid"
                     app:layout_constraintStart_toStartOf="@+id/start_grid"
@@ -53,7 +52,6 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:fontFamily="@font/roboto_slab"
                     android:text="@string/gdg_description_long"
                     app:layout_constraintEnd_toStartOf="@+id/end_grid"
                     app:layout_constraintStart_toStartOf="@+id/start_grid"
@@ -61,7 +59,7 @@
 
                 <TextView
                     android:id="@+id/subtitle"
-                    style="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="13dp"
